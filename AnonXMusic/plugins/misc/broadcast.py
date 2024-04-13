@@ -4,8 +4,8 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from config import adminlist
 from AnonXMusic import app
+from config import adminlist
 from AnonXMusic.misc import SUDOERS
 from AnonXMusic.utils.database import (
     get_active_chats,
